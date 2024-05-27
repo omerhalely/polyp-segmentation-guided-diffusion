@@ -1,14 +1,7 @@
 .DS_Store
 __pycache__/
 classify_image_graph_def.pb
-*.jpg
-*.jpeg
-*.png
-*.csv
-*.pt
-*.txt
-*.gif
-*.log
-*.json
 runs/
 .idea
+saved_models
+data
