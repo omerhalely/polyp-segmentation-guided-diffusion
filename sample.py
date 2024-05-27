@@ -127,14 +127,13 @@ class Sampler:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default="DiT_B2", choices=["DiT_XL2", "DiT_XL4", "DiT_XL8",
+    parser.add_argument("--model", type=str, default="DiT_S8", choices=["DiT_XL2", "DiT_XL4", "DiT_XL8",
                                                                         "DiT_L2", "DiT_L4", "DiT_L8",
                                                                         "DiT_B2", "DiT_B4", "DiT_B8",
                                                                         "DiT_S2", "DiT_S4", "DiT_S8"])
     parser.add_argument("--data-path", type=str, default="./data/Kvasir-SEG")
     parser.add_argument("--epochs", type=int, default=150)
-    parser.add_argument("--batch-size", type=int, default=8)
-    parser.add_argument("--load-pretrained", type=bool, default=False)
+    parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--cross-model", type=str, default="false", choices=["true", "false"])
     parser.add_argument("--num-augmentations", type=int, default=1)
     parser.add_argument("--ema", type=str, default="true", choices=["true", "false"])
