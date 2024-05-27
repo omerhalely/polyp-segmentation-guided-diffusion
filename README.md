@@ -1,8 +1,8 @@
 # polyp-segmentation-guided-diffusion
 Implementation for polyp segmentation using diffusion transformers.
 
-![Alt text](./examples/gif_example.gif)
-![Alt text](./examples/example1.jpg)
+<img src="examples/example2.jpg" alt="Project Screenshot" style="width:48%; height:200px;">
+<img src="examples/gif_example.gif" alt="Project Screenshot" style="width:48%; height:200px;">
 
 ## Data
 In this project we used 2 different datasets, BKAI and Kvasir-SEG. We saved the datasets under a directory named data.
