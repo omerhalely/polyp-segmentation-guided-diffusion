@@ -1,5 +1,8 @@
 # polyp-segmentation-guided-diffusion
 Implementation for polyp segmentation using diffusion transformers.
+The implementation of Denoising Diffusion Probabilistic Models presented in the project is based on [openai/improved-diffusion](https://github.com/openai/improved-diffusion).
+The implementation of Diffusion Transformers (DiT) presented in the project is based on [facebookresearch/DiT](https://github.com/facebookresearch/DiT).
+The implementation of the evaluation metrics in the project is based on [KidsWithTokens/MedSegDiff](https://github.com/KidsWithTokens/MedSegDiff).
 
 ![Alt text](./examples/gif_example.gif)
 ![Alt text](./examples/example1.jpg)

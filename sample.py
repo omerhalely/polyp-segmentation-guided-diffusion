@@ -135,7 +135,7 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", type=int, default=150)
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--cross-model", type=str, default="false", choices=["true", "false"])
-    parser.add_argument("--num-augmentations", type=int, default=1)
+    parser.add_argument("--num-augmentations", type=int, default=8)
     parser.add_argument("--ema", type=str, default="true", choices=["true", "false"])
     parser.add_argument("--num-images", type=int, default=50)
     parser.add_argument("--num-testing-steps", type=int, default=100)
